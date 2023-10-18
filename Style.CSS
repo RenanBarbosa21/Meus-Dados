@@ -1,0 +1,55 @@
+body{
+background-color: rgb(33, 1, 1);
+margin: 0;
+padding: 0;
+}
+.container{
+text-align: center;
+}
+.container img{
+    width: 30%;
+   display: block;
+   margin: 0 auto;
+   margin-top: 200px;
+
+}
+
+.palavras-do-canto-superior{
+position: absolute;
+top: 0;
+right: 0;
+padding: 10px;
+display: inline;
+color: bisque;
+margin-top: 15px;
+margin-bottom: 0;
+
+}
+h1{
+display: inline;
+margin-right: 10px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.minhas-skills{
+  font-size:x-large;
+    padding:0%;
+    color: rgb(4, 128, 4);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media screen and (max-width: 768px) {
+    
+}
+.fotos-das-skills{
+  display: flex; 
+  gap: 300px;
+  width: auto;
+  max-width: 200%;
+  }
+.fotos-das-skills img{
+  width:200px;
+  position: relative;
+}
+ 
+.fotos-das-skills:hover{
+  transform: scale(1.05);
+}
